@@ -1,0 +1,28 @@
+Name: Vikas Sharma
+
+Title: Backend Software Engineer
+
+Email: vikassharma53489@gmail.com
+
+Phone: +91-8423039341
+
+Location: Greater Noida
+
+Education:
+Bachelor of Technology in Computer Science and Engineering (AIML)
+Noida Institute of Engineering and Technology
+CGPA: 9.51/10
+
+Skills:
+Java, Python, SQL, Spring Boot, Node.js, MongoDB
+
+Projects:
+Linklytics - URL Shortener Microservice
+Smart Document Intelligence System (GenAI/RAG)
+UniAlum Alumni Data Management Platform
+
+Research:
+Integrated ANN-XGBoost Framework for Groundwater Depletion Risk Prediction
+
+GitHub:
+github.com/Vikas1715

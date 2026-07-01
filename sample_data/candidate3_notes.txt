@@ -1,0 +1,28 @@
+Recruiter Call Notes
+Date: 01 July 2026
+
+Candidate: Vikas Sharma
+
+Current Title:
+Backend Software Engineer
+
+Location:
+Greater Noida
+
+Skills:
+Java, Spring Boot, SQL, REST APIs, Node.js
+
+Education:
+Bachelor of Technology in Computer Science and Engineering (AIML)
+
+Confirmed Email:
+vikassharma53489@gmail.com
+
+Confirmed Phone:
++91-8423039341
+
+GitHub Username:
+Vikas1715
+
+Recommendation:
+Strong Backend Engineering candidate with excellent Java fundamentals and good knowledge of Spring Boot and REST APIs.

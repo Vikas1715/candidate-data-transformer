@@ -9,5 +9,11 @@
     "csv": "sample_data/candidate2.csv",
     "resume": "sample_data/candidate2_resume.txt",
     "notes": "sample_data/candidate2_notes.txt"
+  },
+  {
+    "csv": "sample_data/candidate3.csv",
+    "resume": "sample_data/candidate3_resume.txt",
+    "notes": "sample_data/candidate3_notes.txt",
+    "github_username": "Vikas1715"
   }
 ]
