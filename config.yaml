@@ -1,0 +1,33 @@
+# Multi-Source Candidate Data Transformer - Configuration
+# Edit this file to tune business behaviour without touching source code.
+
+source_trust:
+  structured: 0.95   # CSV / ATS JSON - authoritative system of record
+  github: 0.85       # Verified API data
+  resume: 0.65       # Self-reported, unverified, free-text extraction
+  notes: 0.40        # Recruiter free text - least structured / most subjective
+
+# Earlier = wins ties when trust scores are equal or a field is missing
+# from the top-trust source that actually supplied a value.
+source_precedence:
+  - structured
+  - github
+  - resume
+  - notes
+
+confidence_weights:
+  validation_pass: 0.30     # did the field pass field-level validation?
+  corroboration: 0.30       # how many independent sources agree?
+  source_trust: 0.20        # trust score of the winning source
+  completeness: 0.10        # was the field present at all vs inferred/missing?
+  freshness: 0.10           # how recent is the source data (if timestamped)?
+
+conflict_penalty: 0.15      # subtracted from confidence per unresolved conflicting source
+min_confidence: 0.05
+max_confidence: 0.99
+
+github_cache_ttl_seconds: 86400
+github_api_base: "https://api.github.com"
+github_request_timeout: 8
+
+identity_strategy: "hierarchy"   # "hierarchy" | "composite_score"

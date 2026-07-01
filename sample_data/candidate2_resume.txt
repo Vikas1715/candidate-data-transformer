@@ -1,0 +1,6 @@
+Name: John Smith
+Title: Staff Software Engineer
+Company: Techstartup Inc
+Email: j.smith@personalmail.com
+Skills: Go, React, AWS
+3 years of experience.

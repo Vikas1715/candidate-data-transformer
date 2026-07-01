@@ -1,0 +1,13 @@
+[
+  {
+    "csv": "sample_data/candidate1.csv",
+    "resume": "sample_data/candidate1_resume.txt",
+    "notes": "sample_data/candidate1_notes.txt",
+    "github_username": "janedoe-dev"
+  },
+  {
+    "csv": "sample_data/candidate2.csv",
+    "resume": "sample_data/candidate2_resume.txt",
+    "notes": "sample_data/candidate2_notes.txt"
+  }
+]
